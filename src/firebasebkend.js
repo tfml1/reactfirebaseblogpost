@@ -14,14 +14,16 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBPtXKsbH73vF3RkT-5WiLYW5bkm3zzUEg",
-  authDomain: "blogpost-288aa.firebaseapp.com",
-  projectId: "blogpost-288aa",
-  storageBucket: "blogpost-288aa.appspot.com",
-  messagingSenderId: "1027816319104",
-  appId: "1:1027816319104:web:2b7b2c18d356508339de65",
+  apiKey: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  authDomain: "yyyyyyyyyyyy.firebaseapp.com",
+  projectId: "yyyyyyyyyyyy",
+  storageBucket: "yyyyyyyyyyyy.appspot.com",
+  messagingSenderId: "999999999999999",
+  appId: "0:1111111111111111:web:222222222222222222",
 };
-
+// (note- firebaseConfig is copy paste object from firebase console, when u set up ur project,
+// u will get this config object after u set up ur firebase project(create new) and goto (on the left sidebar) prokect overview->project settings->scroll to bottom
+// i have removed my credentials but rest of the code is accurate)
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 //------------------------------------------------------------------------
