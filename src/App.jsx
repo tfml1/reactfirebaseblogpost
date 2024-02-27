@@ -1,6 +1,5 @@
 // react firebase blogpost app (crud demo)
 //----------------------------------------------------------------------------------
-// 4/0AeaYSHDfyRWcp5ESj62SgnRJNqAJhhmq-PujzwCHE-IGVX2Lf_O2OIPvmO730Ce9r25NUQ
 import "./styles.css";
 import { auth, provider, db } from "../src/firebasebkend";
 import {
@@ -460,4 +459,4 @@ Use CSS to style the application and improve the user interface.
 //-------------//
 //  give a ⭐️  //
 //-------------//
-//
+
